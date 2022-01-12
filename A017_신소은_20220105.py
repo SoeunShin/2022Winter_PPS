@@ -7,4 +7,4 @@ for n in room:
         else: num[9] += 1 
     else: num[n] += 1
 
-print(max(num))
+print(max(num)) 
