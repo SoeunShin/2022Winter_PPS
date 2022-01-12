@@ -16,4 +16,4 @@ for i in range(len(scores)):
         if(scores[i][k] > avg):
             stu_sum += 1
     result = stu_sum / scores[i][0] * 100
-    print("{:.3f}%".format(result))
+    print("{:.3f}%".format(result)) 
