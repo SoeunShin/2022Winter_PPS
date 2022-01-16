@@ -9,4 +9,4 @@ def solution(array, commands):
         idx = commands[i][2]
         sortedList = sorted(array[start-1:finish]) 
         answer.append(sortedList[idx-1])
-    return answer
+    return answer 
