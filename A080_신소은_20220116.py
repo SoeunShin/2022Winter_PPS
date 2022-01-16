@@ -11,4 +11,4 @@ class Solution:
         unique = list(set(nums)) # 중복 제거 
         for n in unique:
             if nums.count(n) > len(nums)/2:
-                return n
+                return n 
