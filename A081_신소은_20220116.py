@@ -3,4 +3,4 @@
 case = int(input())
 for i in range(case):
     nums = sorted(list(map(int, input().split())), reverse=True)
-    print(nums[2])
+    print(nums[2]) 
