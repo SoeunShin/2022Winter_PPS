@@ -10,4 +10,4 @@ class Solution:
                     continue
                 else:
                     return prefix[:-1]
-        return prefix
+        return prefix 
