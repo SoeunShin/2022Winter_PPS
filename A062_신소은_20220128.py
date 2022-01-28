@@ -5,4 +5,4 @@ def solution(a, b):
     num = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     
     all = sum(num[:a-1]) + b
-    return day[all % 7]
+    return day[all % 7] 
