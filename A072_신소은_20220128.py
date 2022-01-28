@@ -8,4 +8,4 @@ class Solution:
         answer = sum(days[:month-1]) + day
         if ((year % 4 == 0 and year % 100 != 0) or year % 400 == 0) and month > 2: # 윤년 계산 
             answer += 1
-        return answer
+        return answer 
