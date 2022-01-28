@@ -8,4 +8,4 @@ for _ in range(num):
 arr.sort(key = lambda x: (x[0], x[1]))
 
 for i in range(num):
-    print(arr[i][0], arr[i][1])
+    print(arr[i][0], arr[i][1]) 
