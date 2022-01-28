@@ -7,4 +7,4 @@ class Solution:
             if target - numbers[i] in dic : 
                 return [dic[target - numbers[i]],i+1]
             else:
-                dic[numbers[i]] = i+1
+                dic[numbers[i]] = i+1 
