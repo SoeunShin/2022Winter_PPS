@@ -19,4 +19,4 @@ class Solution:
 
         if ''.join(s_list) == ''.join(t_list):
             return True
-        else: return False
+        else: return False 
